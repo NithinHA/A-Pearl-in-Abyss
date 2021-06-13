@@ -48,7 +48,7 @@ public class EnemySpawner : Singleton<EnemySpawner>
                 waveState = false;
                 waveIndex++;
                 if (waveIndex >= waveWaitTimes.Length)
-                    waveIndex = 1;
+                    waveIndex = waveWaitTimes.Length-2;
                 enemiesSpawnedThisWave = 0;
                 OnWaveStateChange?.Invoke(waveState);
             }

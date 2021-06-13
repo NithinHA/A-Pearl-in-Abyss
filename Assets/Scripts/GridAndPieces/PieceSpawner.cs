@@ -9,6 +9,8 @@ public class PieceSpawner : Singleton<PieceSpawner>
     [SerializeField] private Piece piecePrefab;
     [SerializeField] private List<PieceType> pieceTypes = new List<PieceType>(4);
     [SerializeField] private int[] orientations = {0, -90, 90, 180};
+    [Space]
+    [SerializeField] private int[] pieceSpawnRate = new int[] { 5, 7, 11, 14 };
     
     public List<PieceSpawnPoints> spawnPoints = new List<PieceSpawnPoints>();
 
@@ -81,7 +83,7 @@ public class PieceSpawner : Singleton<PieceSpawner>
             }
         }
 
-         nextSpawnTimer = availableSlots > 3 ? 5 : availableSlots > 2 ? 7 : availableSlots > 1 ? 11 : 14;
+        nextSpawnTimer = availableSlots > 3 ? pieceSpawnRate[0] : availableSlots > 2 ? pieceSpawnRate[1] : availableSlots > 1 ? pieceSpawnRate[2] : pieceSpawnRate[3];
         // nextSpawnTimer = Random.Range(3, 5);
     }
 

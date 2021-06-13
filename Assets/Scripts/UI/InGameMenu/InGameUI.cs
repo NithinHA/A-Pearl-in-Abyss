@@ -83,6 +83,11 @@ public class InGameUI : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
+    public void OnNextLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
     private void OnLevelStateChange(LevelState state)
     {
         if(state == LevelState.win)
