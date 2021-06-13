@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_CloudEmpire.-460660391.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Editor" t="Include">
+          <e p="uGUITools.cs" t="Include" />
+        </e>
+        <e p="Imports" t="Include">
+          <e p="Particle Ingredient Pack" t="Include">
+            <e p="Script" t="Include">
+              <e p="csColorChangerinSampleScene.cs" t="Include" />
+              <e p="csDemoScenceControl.cs" t="Include" />
+              <e p="csMouseOrbit.cs" t="Include" />
+              <e p="csParticleMake.cs" t="Include" />
+              <e p="csRotate.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Materials" t="Include">
+          <e p="Shaders" t="Include">
+            <e p="LevelBG_shader.shader" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Enemy" t="Include">
+            <e p="EnemyBase.cs" t="Include" />
+            <e p="EnemyKnockBack.cs" t="Include" />
+            <e p="EnemySpawner.cs" t="Include" />
+          </e>
+          <e p="GridAndPieces" t="Include">
+            <e p="Cell.cs" t="Include" />
+            <e p="ClusterController.cs" t="Include" />
+            <e p="Grid.cs" t="Include" />
+            <e p="Piece.cs" t="Include" />
+            <e p="PieceSpawner.cs" t="Include" />
+            <e p="PieceSpawnPoints.cs" t="Include" />
+            <e p="PieceTypes" t="Include">
+              <e p="BluePiece.cs" t="Include" />
+              <e p="GreenPiece.cs" t="Include" />
+              <e p="RedPiece.cs" t="Include" />
+              <e p="YellowPiece.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Managers" t="Include">
+            <e p="InputControl.cs" t="Include" />
+            <e p="Singleton.cs" t="Include" />
+          </e>
+          <e p="Misc" t="Include">
+            <e p="CameraAdjustment.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="InGameMenu" t="Include">
+              <e p="Components" t="Include">
+                <e p="ProgressBarUI.cs" t="Include" />
+                <e p="TimerDisplay.cs" t="Include" />
+              </e>
+              <e p="UIClusterHealthBar.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+            <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+            <e p="TMP_Bitmap.shader" t="Include" />
+            <e p="TMP_SDF Overlay.shader" t="Include" />
+            <e p="TMP_SDF SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+            <e p="TMP_SDF-Mobile SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface.shader" t="Include" />
+            <e p="TMP_SDF.shader" t="Include" />
+            <e p="TMP_Sprite.shader" t="Include" />
+            <e p="TMPro.cginc" t="Include" />
+            <e p="TMPro_Mobile.cginc" t="Include" />
+            <e p="TMPro_Properties.cginc" t="Include" />
+            <e p="TMPro_Surface.cginc" t="Include" />
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+          </e>
+        </e>
+        <e p="ThirdParty" t="Include">
+          <e p="DOTween" t="Include">
+            <e p="Modules" t="Include">
+              <e p="DOTweenModuleAudio.cs" t="Include" />
+              <e p="DOTweenModulePhysics.cs" t="Include" />
+              <e p="DOTweenModulePhysics2D.cs" t="Include" />
+              <e p="DOTweenModuleSprite.cs" t="Include" />
+              <e p="DOTweenModuleUI.cs" t="Include" />
+              <e p="DOTweenModuleUnityVersion.cs" t="Include" />
+              <e p="DOTweenModuleUtils.cs" t="Include" />
+            </e>
+            <e p="readme.txt" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="CloudEmpire.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2d529bc0-18ab-4749-9750-d645e00b57eb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GridAndPieces/Grid.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C88E78D9-5135-4A2E-BF09-9668E318691F/57/33bd720a/Color.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GridAndPieces/ClusterController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GridAndPieces/PieceTypes/RedPiece.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Misc/CameraAdjustment.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/InGameMenu/Components/TimerDisplay.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GridAndPieces/Piece.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/InGameMenu/Components/ProgressBarUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GridAndPieces/PieceTypes/GreenPiece.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GridAndPieces/PieceSpawnPoints.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyKnockBack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/InputControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9577AC7A-62EF-4317-9789-031239BA8798/59/04f949c4/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/InGameMenu/UIClusterHealthBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GridAndPieces/Cell.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C88E78D9-5135-4A2E-BF09-9668E318691F/e4/85656658/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GridAndPieces/PieceTypes/BluePiece.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GridAndPieces/PieceTypes/YellowPiece.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GridAndPieces/PieceSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/InputControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Singleton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GridAndPieces/Cell.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Misc/CameraAdjustment.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/InGameMenu/Components/ProgressBarUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/InGameMenu/Components/TimerDisplay.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/InGameMenu/UIClusterHealthBar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GridAndPieces/Grid.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GridAndPieces/PieceTypes/BluePiece1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GridAndPieces/PieceTypes/BluePiece.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GridAndPieces/PieceTypes/GreenPiece1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GridAndPieces/PieceTypes/YellowPiece.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GridAndPieces/PieceTypes/GreenPiece.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GridAndPieces/PieceTypes/RedPiece.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GridAndPieces/PieceTypes/Piece.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GridAndPieces/Spawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyStingRay.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyKnockBack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GridAndPieces/ClusterController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/InputControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GridAndPieces/PieceSpawnPoints.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GridAndPieces/PieceSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GridAndPieces/Piece.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1tpz0GKgOdzsy4C5HWNuNbmWeDf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="3731">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="3731" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d529bc0-18ab-4749-9750-d645e00b57eb" name="Default Changelist" comment="" />
+      <created>1623503806895</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623503806895</updated>
+      <workItem from="1623503816090" duration="40567000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="WindowStateProjectService">
+    <state width="457" height="466" key="DebuggerActiveHint" timestamp="1623536017476">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="457" height="466" key="DebuggerActiveHint/0.23.1680.973@0.23.1680.973" timestamp="1623536017476" />
+    <state width="1638" height="324" key="GridCell.Tab.0.bottom" timestamp="1623515963114">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="1638" height="324" key="GridCell.Tab.0.bottom/0.23.1680.973@0.23.1680.973" timestamp="1623515963114" />
+    <state width="1638" height="324" key="GridCell.Tab.0.center" timestamp="1623515963113">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="1638" height="324" key="GridCell.Tab.0.center/0.23.1680.973@0.23.1680.973" timestamp="1623515963112" />
+    <state width="1638" height="324" key="GridCell.Tab.0.left" timestamp="1623515963111">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="1638" height="324" key="GridCell.Tab.0.left/0.23.1680.973@0.23.1680.973" timestamp="1623515963111" />
+    <state width="1638" height="324" key="GridCell.Tab.0.right" timestamp="1623515963114">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="1638" height="324" key="GridCell.Tab.0.right/0.23.1680.973@0.23.1680.973" timestamp="1623515963114" />
+    <state width="1638" height="324" key="GridCell.Tab.1.bottom" timestamp="1623515966786">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="1638" height="324" key="GridCell.Tab.1.bottom/0.23.1680.973@0.23.1680.973" timestamp="1623515966786" />
+    <state width="1638" height="324" key="GridCell.Tab.1.center" timestamp="1623515966784">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="1638" height="324" key="GridCell.Tab.1.center/0.23.1680.973@0.23.1680.973" timestamp="1623515966784" />
+    <state width="1638" height="324" key="GridCell.Tab.1.left" timestamp="1623515966784">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="1638" height="324" key="GridCell.Tab.1.left/0.23.1680.973@0.23.1680.973" timestamp="1623515966784" />
+    <state width="1638" height="324" key="GridCell.Tab.1.right" timestamp="1623515966785">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="1638" height="324" key="GridCell.Tab.1.right/0.23.1680.973@0.23.1680.973" timestamp="1623515966785" />
+    <state x="503" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1623537305297">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="503" y="235" width="672" height="678" key="search.everywhere.popup/0.23.1680.973@0.23.1680.973" timestamp="1623537305297" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBase.cs</url>
+          <line>50</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBase.cs" initialLine="50">
+            <startOffsets>
+              <option value="1124" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1125" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
