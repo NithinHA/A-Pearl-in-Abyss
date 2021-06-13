@@ -42,6 +42,9 @@ public class Piece : MonoBehaviour
 
     protected virtual void Update()
     {
+        if (LevelManager.Instance.currentLevelState != LevelState.running)
+            return;
+
         if (isPlaced)
         {
             // defends the place

@@ -22,7 +22,10 @@ public class InputControl : Singleton<InputControl>
 
     void Update()
     {
-#if UNITY_EDITOR
+        if (LevelManager.Instance.currentLevelState != LevelState.running)
+            return;
+
+//#if UNITY_EDITOR
         if (Input.GetMouseButtonDown(0))
         {
             selectedPieceItem = FindNearestPiece((Vector2)_mainCam.ScreenToWorldPoint(Input.mousePosition));
@@ -81,7 +84,7 @@ public class InputControl : Singleton<InputControl>
         //     selectedPieceItem.PieceGroup.sortingOrder = 0;
         //     selectedPieceItem = null;
         // }
-#endif
+//#endif
     }
 
     private Piece FindNearestPiece(Vector2 cursorPosition)

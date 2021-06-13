@@ -31,6 +31,9 @@ public class PieceSpawner : Singleton<PieceSpawner>
 
     private void Update()
     {
+        if (LevelManager.Instance.currentLevelState != LevelState.running)
+            return;
+
         timeSinceLastSpawn += Time.deltaTime;
         if (timeSinceLastSpawn > nextSpawnTimer && nextSpawnPoint.isAvailable)
         {
@@ -78,7 +81,7 @@ public class PieceSpawner : Singleton<PieceSpawner>
             }
         }
 
-        nextSpawnTimer = availableSlots > 3 ? 5 : availableSlots > 2 ? 7 : availableSlots > 1 ? 11 : 14;
+         nextSpawnTimer = availableSlots > 3 ? 5 : availableSlots > 2 ? 7 : availableSlots > 1 ? 11 : 14;
         // nextSpawnTimer = Random.Range(3, 5);
     }
 

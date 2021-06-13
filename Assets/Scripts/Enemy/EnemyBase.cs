@@ -25,6 +25,9 @@ public class EnemyBase : MonoBehaviour
 
     protected virtual void Update()
     {
+        if (LevelManager.Instance.currentLevelState != LevelState.running)
+            return;
+
         if (isAlive && canMove)
         {
             transform.Translate(Vector3.down * (moveSpeed * Time.deltaTime));

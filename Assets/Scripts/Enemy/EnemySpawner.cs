@@ -7,11 +7,14 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private EnemyBase[] enemyVariety;
     [SerializeField] private List<Transform> spawnPoints = new List<Transform>();
     [Space]
-    [SerializeField] private float nextSpawnTimer = 5;
+    [SerializeField] private float nextSpawnTimer = 8;
     private float timeSinceLastSpawn;
-    
+
     private void Update()
     {
+        if (LevelManager.Instance.currentLevelState != LevelState.running)
+            return;
+
         timeSinceLastSpawn += Time.deltaTime;
         if (timeSinceLastSpawn > nextSpawnTimer)
         {
