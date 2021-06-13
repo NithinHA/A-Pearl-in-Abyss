@@ -15,12 +15,12 @@ public class LevelManager : Singleton<LevelManager>
 
     private void Awake()
     {
-        ScoreManager.Instance.OnPearlLose += OnPearlLoseGameStateCheck;
+        ScoreManager.Instance.UpdatePerlData += OnUpdatePerlData;
     }
 
     private void OnDestroy()
     {
-        ScoreManager.Instance.OnPearlLose -= OnPearlLoseGameStateCheck;
+        ScoreManager.Instance.UpdatePerlData -= OnUpdatePerlData;
     }
 
     private void Start()
@@ -45,7 +45,7 @@ public class LevelManager : Singleton<LevelManager>
         WinGame();
     }
 
-    private void OnPearlLoseGameStateCheck(int loseCount)
+    private void OnUpdatePerlData()
     {
         if(ScoreManager.Instance.RemainingPearls <= 0)
         {

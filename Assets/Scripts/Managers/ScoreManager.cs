@@ -18,11 +18,18 @@ public class ScoreManager : Singleton<ScoreManager>
         } 
     }
 
-    public Action<int> OnPearlLose;
+    public Action UpdatePerlData;
 
     private void Start()
     {
         remainingPearls = totalPearlsAvailable;
+        StartCoroutine(DelayedStartRoutine());
+    }
+
+    private IEnumerator DelayedStartRoutine()
+    {
+        yield return new WaitForEndOfFrame();
+        UpdatePerlData?.Invoke();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -32,7 +39,7 @@ public class ScoreManager : Singleton<ScoreManager>
             EnemyBase enemy = other.gameObject.GetComponent<EnemyBase>();
             Destroy(enemy.gameObject);
             remainingPearls -= 1;
-            OnPearlLose?.Invoke(1);
+            UpdatePerlData?.Invoke();
         }
     }
 }

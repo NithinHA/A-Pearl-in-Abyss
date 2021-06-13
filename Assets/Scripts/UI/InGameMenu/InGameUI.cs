@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -9,6 +10,8 @@ public class InGameUI : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI pearlStoreText;
     [SerializeField] private Slider levelProgress;
+    [SerializeField] private RectTransform waveInfoPanel;
+    [SerializeField] private TextMeshProUGUI waveInfo;
     [Space]
     [SerializeField] private GameObject pauseScreen;
     [SerializeField] private GameObject winScreen;
@@ -17,21 +20,23 @@ public class InGameUI : MonoBehaviour
 
     private void Start()
     {
-        ScoreManager.Instance.OnPearlLose += OnPearlLose;
+        ScoreManager.Instance.UpdatePerlData += OnUpdatePerlData;
         LevelManager.Instance.onTick += OnTick;
         LevelManager.Instance.onLevelStateChange += OnLevelStateChange;
+        EnemySpawner.Instance.OnWaveStateChange += OnWaveStateChange;
 
         levelNameText.text = "Level: " + LevelManager.Instance.levelIndex;
     }
 
     private void OnDestroy()
     {
-        ScoreManager.Instance.OnPearlLose -= OnPearlLose;
+        ScoreManager.Instance.UpdatePerlData -= OnUpdatePerlData;
         LevelManager.Instance.onTick -= OnTick;
         LevelManager.Instance.onLevelStateChange -= OnLevelStateChange;
+        EnemySpawner.Instance.OnWaveStateChange -= OnWaveStateChange;
     }
 
-    private void OnPearlLose(int count)
+    private void OnUpdatePerlData()
     {
         pearlStoreText.text = ScoreManager.Instance.RemainingPearls.ToString();
     }
@@ -39,6 +44,19 @@ public class InGameUI : MonoBehaviour
     private void OnTick(float progressPercent)
     {
         levelProgress.value = progressPercent;
+    }
+
+    private void OnWaveStateChange(bool isWaveActive)
+    {
+        waveInfo.text = isWaveActive ? "Incoming Wave!" : "Cooldown";
+        // display the panel for 2 sec and off
+        waveInfoPanel.gameObject.SetActive(true);
+
+        Sequence waveStateDisplay = DOTween.Sequence();
+        waveStateDisplay.Append(waveInfoPanel.DOScaleX(1, .4f))
+            .AppendInterval(1)
+            .Append(waveInfoPanel.DOScaleX(0, .4f))
+            .onComplete += () => waveInfoPanel.gameObject.SetActive(false);
     }
 
     public void OnPauseButton()
@@ -57,7 +75,7 @@ public class InGameUI : MonoBehaviour
 
     public void OnHomeButton()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("MainMenu_1");
     }
 
     public void OnRestartButton()
