@@ -4265,7 +4265,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 0
+        m_CallState: 2
 --- !u!114 &1366138202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5529,6 +5529,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _PersistentOnSceneChange: 0
   levelIndex: 0
+  currentLevelState: 0
   levelTotalTime: 120
   passedTime: 0
 --- !u!4 &1957448712
