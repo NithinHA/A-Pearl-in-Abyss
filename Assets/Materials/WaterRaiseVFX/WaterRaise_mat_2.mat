@@ -25,8 +25,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Frequency: 0
-    - _Scale: 0.65
+    - _Scale: 0.53
     - _Speed: 1
     m_Colors:
-    - _Color: {r: 0.5377358, g: 0.5377358, b: 0.5377358, a: 0.62352943}
+    - _Color: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 0.5529412}
   m_BuildTextureStacks: []
